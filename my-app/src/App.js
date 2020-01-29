@@ -8,7 +8,7 @@ function App() {
   return (
     <div >
     <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
+        <Header className='header-color' title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">AboutMe</Link>
